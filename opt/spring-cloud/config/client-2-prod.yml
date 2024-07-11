@@ -1,0 +1,9 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+app:
+  config:
+    name: prod-properties
+  properties:
+    - "client 2 properties"

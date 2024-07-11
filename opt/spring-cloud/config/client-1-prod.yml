@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: prod
+
+app:
+  config:
+    name: prod-properties
+    properties:
+        - "client 1 properties"
+        - "client additional properties"
+        - "client additional properties 2"
+        - "client additional properties 3"
+        - "client additional properties 4"
+        - "client additional properties 5"
+        - "client additional properties 8"
+        - "client additional properties 9"
