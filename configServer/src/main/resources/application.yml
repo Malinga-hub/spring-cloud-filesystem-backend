@@ -1,0 +1,20 @@
+server:
+  port: 8090
+
+spring:
+  config:
+    name: configServer
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: "file:///C://opt//spring-cloud//config"
+  kafka:
+    bootstrap-servers: 172.26.144.70:9092
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
